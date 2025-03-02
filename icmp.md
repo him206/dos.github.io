@@ -11,6 +11,6 @@ sudo hping3 -S --flood -p 445 <Target-IP>
 
 ## Explanation:
 
-- `-S` → Sends SYN flag, initiating a TCP handshake.
+- `-S` → Sends SYN flag, initiating a TCP handshake(three way handshake).
 - `--flood` → Sends packets continuously.
 - `-p 445` → Targets Port 445 (SMB - Windows File Sharing).
