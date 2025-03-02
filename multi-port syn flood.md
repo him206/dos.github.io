@@ -16,5 +16,5 @@ sudo hping3 -S --flood --rand-source -p 80,443,3389,445,22,53 -d 3000000 --fast 
 - `--flood` → Sends continuous packets without waiting for a response.
 - `--rand-source` → Uses random fake IPs to bypass filtering.
 - `-p 80,443,3389,445,22,53` → Targets multiple ports.
-- `-d 3000000` → Defines data packet size in KB.
+- `-d (ex:-3000000)` → Defines data packet size in KB.
 - `--fast` → Sends packets at maximum speed.
